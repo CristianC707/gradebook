@@ -5,6 +5,10 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+.hide {
+    display: none;
+}
+
 
 nav {
     border: 1px solid black;
@@ -51,7 +55,39 @@ input {
     max-width: 400px;
     margin: auto;
     margin-top: 40px;
-    padding: 75px;
+    /* padding: 20px; */
     border: 1px solid black;
 }
 
+.green-row {
+    background-color: rgb(23, 215, 23);
+}
+
+.yellow-row {
+    background-color: yellow;
+}
+
+.blue-row {
+    background-color: rgb(153, 153, 245);
+}
+
+.orange-row {
+    background-color: orange;
+}
+
+.red-row {
+    background-color: rgb(223, 114, 114);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+.error-text {
+color: red;
+}
